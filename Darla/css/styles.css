@@ -10,6 +10,7 @@
     width: 700px;
     height: 1000px;
     background-color: #fbf6f0;
+    margin: 200px;
 }
 .carta {
     display: flex;
