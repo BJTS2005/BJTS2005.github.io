@@ -8,28 +8,21 @@
     justify-content: center;
     position: absolute;
     width: 700px;
-    max-width: 90%;
     height: 1000px;
-    max-height: 90vh;
-    background-color: #00ff55;
-    box-sizing: border-box;
+    background-color: #fbf6f0;
 }
 .carta {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+
 }
 
 body {
     background-color: #ebecf0;
-    margin: 0;
-    padding: 0;
 }
 
 .music-player {
     width: 300px;
-    max-width: 90%;
     padding: 20px;
     background-color: #e9dfd6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -94,12 +87,11 @@ body {
     height: 20px;
 }
 
+
 .marco {
     position: absolute;
     width: 236.6px;
-    max-width: 80%;
     height: 273.3px;
-    max-height: auto;
     background-color: #f2f1ec;
     bottom: 400px;
     rotate: 9deg;
@@ -119,7 +111,7 @@ body {
     height: 210px;
 }
 
-.cinta {
+.cinta{
     position: absolute;
     z-index: 1;
     left: 45px;
@@ -127,40 +119,12 @@ body {
     rotate: -9deg;
 }
 
-.texto {
+.texto{
     position: absolute;
     top: 210px;
     width: 300px;
-    max-width: 80%;
     left: 100px;
 }
-
-.music-player {
+.music-player{
     z-index: 1;
-}
-
-@media (max-width: 600px) {
-    .bordes {
-        width: 90%;
-        height: auto;
-    }
-    .texto {
-        width: 80%;
-        left: 10%;
-    }
-    .music-player {
-        width: 90%;
-        left: 5%;
-        bottom: 20px;
-    }
-    .marco {
-        width: 80%;
-        height: auto;
-        bottom: 150px;
-        right: 10px;
-    }
-    .foto {
-        width: 100%;
-        height: auto;
-    }
 }
